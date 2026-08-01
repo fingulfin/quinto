@@ -12,6 +12,6 @@ public class HelloController {
     }
     @GetMapping("/")
     public String bienvenida() {
-        return "Inicio de pagina me gusta la riata";
+        return "Proyecto hospedado en google cloud run";
     }
 }
