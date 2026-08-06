@@ -17,6 +17,6 @@ public class HelloController {
     }
     @GetMapping("/fake")
     public User fakeUser() {
-        return new User("Fake User", "fake@example.com");
+        return new User("Usuario fake", "foky@example.com");
     }
 }
